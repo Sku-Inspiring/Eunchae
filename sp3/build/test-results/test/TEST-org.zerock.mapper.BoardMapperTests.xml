@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.zerock.mapper.BoardMapperTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-13T11:41:34" hostname="HONG-PC" time="0.207">
+  <properties/>
+  <testcase name="testInsertSelectKey" classname="org.zerock.mapper.BoardMapperTests" time="0.207"/>
+  <system-out><![CDATA[INFO : org.zerock.mapper.BoardMapperTests - BoardVO(bno=null, title=?깉濡? ?옉?꽦?븯?뒗 湲? select key, content=?깉濡? ?옉?꽦?븯?뒗 ?궡?슜 select key, writer=newbie, regdate=null, updatedate=null)
+]]></system-out>
+  <system-err><![CDATA[264 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+309 [Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15c22559, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@32db4259, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31b2507a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e8de0b4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4a61ecd1]
+629 [Test worker] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+1061 [Test worker] INFO org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@5e547c00: startup date [Fri Nov 13 20:41:30 KST 2020]; root of context hierarchy
+1559 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1571 [Test worker] WARN com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+3939 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+]]></system-err>
+</testsuite>
