@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.zerock.controller.BoardControllerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-04T09:57:16" hostname="HONG-PC" time="0.603">
+  <properties/>
+  <testcase name="testRemove" classname="org.zerock.controller.BoardControllerTests" time="0.603"/>
+  <system-out><![CDATA[INFO : org.zerock.controller.BoardController - remove...:10
+INFO : org.zerock.service.BoardServiceImpl - remove.....10
+INFO : org.zerock.controller.BoardControllerTests - redirect:/board/list
+]]></system-out>
+  <system-err><![CDATA[376 [Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+447 [Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7356a10b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@388e8d0c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29e0367a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42ccc385, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4d47c2e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@487e6755]
+974 [Test worker] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+1606 [Test worker] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml]
+1874 [Test worker] WARN org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'boardMapper' and 'org.zerock.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+1874 [Test worker] WARN org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'timeMapper' and 'org.zerock.mapper.TimeMapper' mapperInterface. Bean already defined with the same name!
+1875 [Test worker] WARN org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[org.zerock.mapper]' package. Please check your configuration.
+1894 [Test worker] INFO org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5c3018b3: startup date [Fri Dec 04 18:57:10 KST 2020]; root of context hierarchy
+2757 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2772 [Test worker] WARN com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+5723 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+7263 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/board/remove],methods=[POST]}" onto public java.lang.String org.zerock.controller.BoardController.remove(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+7266 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/board/get],methods=[GET]}" onto public void org.zerock.controller.BoardController.get(java.lang.Long,org.springframework.ui.Model)
+7267 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/board/register],methods=[POST]}" onto public java.lang.String org.zerock.controller.BoardController.register(org.zerock.domain.BoardVO,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+7268 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/board/list],methods=[GET]}" onto public void org.zerock.controller.BoardController.list(org.springframework.ui.Model)
+7269 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/board/modify],methods=[POST]}" onto public java.lang.String org.zerock.controller.BoardController.modify(org.zerock.domain.BoardVO,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+7270 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.zerock.controller.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+7273 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sample/ex01],methods=[GET]}" onto public java.lang.String org.zerock.controller.SampleController.ex01(org.zerock.domain.SampleDTO)
+7274 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sample/]}" onto public java.lang.String org.zerock.controller.SampleController.doA()
+7484 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5c3018b3: startup date [Fri Dec 04 18:57:10 KST 2020]; root of context hierarchy
+7583 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5c3018b3: startup date [Fri Dec 04 18:57:10 KST 2020]; root of context hierarchy
+7913 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+7914 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+7982 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 68 ms
+]]></system-err>
+</testsuite>

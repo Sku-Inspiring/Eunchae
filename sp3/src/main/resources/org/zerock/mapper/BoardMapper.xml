@@ -23,4 +23,16 @@ select * from tbl_board where bno > 0
         values (#{bno}, #{title}, #{content}, #{writer})
     </insert>
 
+    <select id="read" resultType="org.zerock.domain.BoardVO">
+        select * from tbl_board where bno = #{bno}
+    </select>
+
+    <update id = "update">
+        update tbl_board set title = #{title}, content=#{content}, writer=#{writer}, updatedate = sysdate where bno=#{bno}
+    </update>
+
+    <delete id="delete">
+        delete from tbl_board where bno = #{bno}
+    </delete>
+
 </mapper>
